@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A6ABA7282B6A1B8900F56451 /* ShimmerEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABA7272B6A1B8900F56451 /* ShimmerEffectApp.swift */; };
-		A6ABA72A2B6A1B8900F56451 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABA7292B6A1B8900F56451 /* ContentView.swift */; };
+		A6ABA72A2B6A1B8900F56451 /* ShimmerEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABA7292B6A1B8900F56451 /* ShimmerEffectView.swift */; };
 		A6ABA72C2B6A1B8C00F56451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ABA72B2B6A1B8C00F56451 /* Assets.xcassets */; };
 		A6ABA72F2B6A1B8C00F56451 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ABA72E2B6A1B8C00F56451 /* Preview Assets.xcassets */; };
+		A6ABA7362B6A1BA700F56451 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABA7352B6A1BA700F56451 /* ShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6ABA7242B6A1B8900F56451 /* ShimmerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6ABA7272B6A1B8900F56451 /* ShimmerEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectApp.swift; sourceTree = "<group>"; };
-		A6ABA7292B6A1B8900F56451 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6ABA7292B6A1B8900F56451 /* ShimmerEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectView.swift; sourceTree = "<group>"; };
 		A6ABA72B2B6A1B8C00F56451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6ABA72E2B6A1B8C00F56451 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6ABA7352B6A1BA700F56451 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A6ABA7272B6A1B8900F56451 /* ShimmerEffectApp.swift */,
-				A6ABA7292B6A1B8900F56451 /* ContentView.swift */,
+				A6ABA7292B6A1B8900F56451 /* ShimmerEffectView.swift */,
+				A6ABA7352B6A1BA700F56451 /* ShimmerView.swift */,
 				A6ABA72B2B6A1B8C00F56451 /* Assets.xcassets */,
 				A6ABA72D2B6A1B8C00F56451 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6ABA72A2B6A1B8900F56451 /* ContentView.swift in Sources */,
+				A6ABA7362B6A1BA700F56451 /* ShimmerView.swift in Sources */,
+				A6ABA72A2B6A1B8900F56451 /* ShimmerEffectView.swift in Sources */,
 				A6ABA7282B6A1B8900F56451 /* ShimmerEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
